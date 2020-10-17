@@ -1,0 +1,126 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.gd-1{
+	background-image: linear-gradient( 110.6deg,  rgba(179,157,219,1) 7%, rgba(150,159,222,1) 47.7%, rgba(24,255,255,1) 100.6% ) !important;
+}
+.gd-2{
+	background-image: linear-gradient( 113.3deg,  rgba(134,209,228,1) -1.8%, rgba(60,80,115,1) 86.4% ) !important;
+}
+.gd-3{
+	background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% ) !important;
+}
+.gd-4{
+	background-image: linear-gradient( 109.6deg,  rgba(0,182,255,1) 11.2%, rgba(102,51,153,1) 91.1% )!important;
+}
+
+.colortop{
+	background-color: rgba(255,255,255,.6) !important;
+}
+
+.f1{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.f2{
+	font-family: 'Baloo Da 2', cursive;
+}
+.f3{
+	font-family: 'Piedra', cursive;
+}
+.f4{
+	font-family: 'Anton', sans-serif;
+}
+.f5{
+	font-family: 'Fredoka One', cursive;
+}
+
+.slideimg2{
+		display:none;
+	}
+.carousel-caption{
+	padding-bottom:150px;
+}
+
+.tmain{
+	position: relative;
+}
+
+.tinfo1{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.tinfo2{
+	position:absolute;
+	top:55%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.tinfo3{
+	position:absolute;
+	top:30%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.tinfo4{
+	position:absolute;
+	top:70%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+#contact a{
+	font-size:12px !important;
+}
+@media all and (max-width:1200px) {
+	.carousel-caption{
+	padding-bottom:100px;
+}
+
+@media all and (max-width:800px) {
+	.carousel-caption{
+	padding-bottom:90px !important;
+}
+}
+@media all and (max-width:1050px) {
+	.carousel-caption{
+	padding-bottom:50px;
+}
+.carousel-caption h2{
+	font-size:30px;
+}
+.carousel-caption h1{
+	font-size:50px;
+}
+}
+@media all and (max-width:800px) {
+	.slideimg1{
+		display:none !important;
+	}
+	.slideimg2{
+		display:flex;
+	}
+
+}
+@media all and (max-width:500px) {
+	.carousel-caption h2{
+	font-size:20px;
+}
+   .carousel-caption h1{
+	font-size:30px;
+}
+  .carousel-caption h5{
+	font-size:10px;
+}
+
+.carousel-caption{
+	padding-bottom:10px !important;
+}
+}
